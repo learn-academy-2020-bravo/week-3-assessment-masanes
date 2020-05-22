@@ -61,7 +61,7 @@ class GoodRobot extends Component{
       // 8. returns the div and displayed all the info nested inside of it to parent
       <div>
         <h3>Good Robot</h3>
-        {/* 9. passes the value */} 
+        {/* 9. passes the value to parent */} 
         <h4>I hear you saying { this.props.userInput }. Is that correct?</h4>
       </div>
     )
